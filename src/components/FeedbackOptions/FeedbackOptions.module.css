@@ -8,17 +8,21 @@
   font-weight: bold;
   cursor: pointer;
   border: 2px solid rgb(49, 94, 146);
-  transform: scale(1);
-  transition-duration: 300ms;
+
+  box-shadow: 3px 3px 3px #464646;
 }
 
 .FeedBack:not(:last-child) {
   margin-right: 20px;
 }
 .FeedBack:hover {
-  transform: scale(1.1);
   background: rgb(82, 98, 141);
   font-weight: bold;
 
   transition-duration: 300ms;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
