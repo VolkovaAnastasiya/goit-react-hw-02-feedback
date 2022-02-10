@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from 'components/App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import FeedBack from 'components/App/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FeedBack />
   </React.StrictMode>,
   document.getElementById('root')
 );
